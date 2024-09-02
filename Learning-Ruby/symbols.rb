@@ -63,7 +63,7 @@ symbol = :immutable
 symbol.upcase!  
 
 
-9. Symbols are Memory Efficient
+# 9. Symbols are Memory Efficient
 
 100_000.times { "string".to_sym }   
 100_000.times { "string".dup }      
